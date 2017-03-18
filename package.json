@@ -1,0 +1,22 @@
+{
+  "name": "aws-alexa-wunderground",
+  "version": "1.0.0",
+  "description": "Alexa AWS Skill for getting current weather conditions from a Wunderground PWS",
+  "main": "currentWeather.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfkriz/aws-alexa-wunderground.git"
+  },
+  "author": "Jim Kriz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jfkriz/aws-alexa-wunderground/issues"
+  },
+  "homepage": "https://github.com/jfkriz/aws-alexa-wunderground#readme",
+  "dependencies": {
+    "alexa-app": "^3.2.0"
+  }
+}
