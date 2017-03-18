@@ -4,7 +4,7 @@
   "description": "Alexa AWS Skill for getting current weather conditions from a Wunderground PWS",
   "main": "currentWeather.alexa-sdk.js",
   "scripts": {
-    "test": "test"
+    "test": "karma start config/karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,14 @@
   "homepage": "https://github.com/jfkriz/aws-alexa-wunderground#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.7"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-browserify": "^5.1.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.2",
+    "karma-phantomjs-launcher": "^1.0.4"
   }
 }
