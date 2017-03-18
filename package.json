@@ -2,7 +2,7 @@
   "name": "aws-alexa-wunderground",
   "version": "1.0.0",
   "description": "Alexa AWS Skill for getting current weather conditions from a Wunderground PWS",
-  "main": "currentWeather.js",
+  "main": "currentWeather.alexa-sdk.js",
   "scripts": {
     "test": "test"
   },
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jfkriz/aws-alexa-wunderground#readme",
   "dependencies": {
-    "alexa-app": "^3.2.0"
+    "alexa-sdk": "^1.0.7"
   }
 }
