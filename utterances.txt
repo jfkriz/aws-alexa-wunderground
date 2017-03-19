@@ -1,0 +1,14 @@
+GetCurrentWeather What is the current weather
+GetCurrentWeather What's the current weather
+GetCurrentWeather What is the weather
+GetCurrentWeather What's the weather
+GetCurrentWeather What is the weather now
+GetCurrentWeather What's the weather now
+GetCurrentWeather What is the temperature
+GetCurrentWeather What's the temperature
+GetCurrentWeather What is the temperature now
+GetCurrentWeather What's the temperature now
+GetCurrentWeather for the current weather
+GetCurrentWeather for the weather
+GetCurrentWeather for the current temperature
+GetCurrentWeather for the temperature

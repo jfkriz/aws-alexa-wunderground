@@ -1,31 +1,28 @@
 {
   "name": "aws-alexa-wunderground",
-  "version": "1.0.0",
-  "description": "Alexa AWS Skill for getting current weather conditions from a Wunderground PWS",
-  "main": "currentWeather.alexa-sdk.js",
+  "version": "0.0.1",
+  "description": "Lambda function for getting current weather from Wunderground",
+  "main": "index.js",
   "scripts": {
-    "test": "karma start config/karma.conf.js"
+    "test": "mocha --recursive ./skills"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "kriz"
+  ],
+  "author": "Jim Kriz",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "request": "^2.79.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jfkriz/aws-alexa-wunderground.git"
-  },
-  "author": "Jim Kriz",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/jfkriz/aws-alexa-wunderground/issues"
-  },
-  "homepage": "https://github.com/jfkriz/aws-alexa-wunderground#readme",
-  "dependencies": {
-    "alexa-sdk": "^1.0.7"
+    "url": "https://github.com/jfkriz/aws-alexa-wunderground"
   },
   "devDependencies": {
-    "jasmine-core": "^2.5.2",
-    "karma": "^1.5.0",
-    "karma-browserify": "^5.1.1",
-    "karma-coverage": "^1.1.1",
-    "karma-jasmine": "^1.1.0",
-    "karma-mocha-reporter": "^2.2.2",
-    "karma-phantomjs-launcher": "^1.0.4"
+    "aws-lambda-mock-context": "^3.0.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
